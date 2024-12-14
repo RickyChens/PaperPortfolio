@@ -1,0 +1,35 @@
+.Login-Container {
+    cursor:none;
+    background-color: black;
+    background: cover;
+    min-height: 100vh;
+}
+
+.Login-Container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.Login-Container > * {
+    position: relative;
+    z-index: 2;
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 999;
+    transform: translate(-50%, -50%);
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+}

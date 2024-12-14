@@ -1,0 +1,150 @@
+.buysell-container {
+    background-color: rgba(255, 255, 255, 0.01);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 325px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+/* Buy Sell Top Button */
+.buysell-container .top-buttons {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.buysell-container .top-buttons .name {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.buysell-container .top-buttons .left{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    border-radius: 20px 0px 0px 20px;
+    padding: 10px 20px;
+    width: 40%;
+    background-color: #1A1A1A;
+}
+
+.buysell-container .top-buttons .left:hover{
+    cursor: pointer;
+}
+
+.buysell-container .top-buttons .left.active{
+    cursor: pointer;
+    background-color: #142e61;
+    color: #2962ff;
+    background-color: rgba(82, 74, 237, 0.3);
+    color: rgb(139, 134, 232);
+}
+
+.buysell-container .top-buttons .right{
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    border-radius: 0px 20px 20px 0px;
+    padding: 10px 20px;
+    width: 40%;
+    background-color: #1A1A1A;
+    text-align: right;
+}
+
+.buysell-container .top-buttons .right:hover{
+    cursor: pointer;
+}
+
+.buysell-container .top-buttons .right.active{
+    cursor: pointer;
+    background-color: #4d191d;
+    color: #f7525f;
+}
+
+/* Input Stock Container */
+.buysell-container .inputs{
+    font-size: 18px;
+    width: 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.buysell-container .Input-Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.buysell-container .Input-Container p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.buysell-container .Input-Container .PriceInput{
+    outline: none;
+    width: 80%;
+    font-weight: 300;
+    background-color: #1A1A1A;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 1px solid #151515;
+}
+
+.buysell-container .Input-Container .UnitInput{
+    outline: none;
+    width: 80%;
+    background-color: #1A1A1A;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 0px 0px 15px 15px;
+    border-top: 1px solid #151515;
+}
+
+
+/* Bottom Buy/Sell Button */
+.buysell-container .buysell {
+    display: flex;
+    justify-content: center;
+}
+
+.buysell-container .buysell button {
+    background-color: #1A1A1A;
+    color: white;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    outline: none;
+    padding: 16px 24px;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    width: 80%;
+}
+
+.buysell-container .buysell button:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+  
+.buysell-container .buysell button:active {
+    box-shadow: none;
+    transform: translateY(0);
+}

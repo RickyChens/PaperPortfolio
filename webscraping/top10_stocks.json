@@ -1,0 +1,52 @@
+[
+    {
+        "Acronym": "AMZN",
+        "Name": "Amazon.com, Inc.",
+        "Price": "207.89"
+    },
+    {
+        "Acronym": "MSFT",
+        "Name": "Microsoft Corporation",
+        "Price": "423.46"
+    },
+    {
+        "Acronym": "NVDA",
+        "Name": "NVIDIA Corporation",
+        "Price": "138.25"
+    },
+    {
+        "Acronym": "GOOG",
+        "Name": "Alphabet Inc.",
+        "Price": "170.49"
+    },
+    {
+        "Acronym": "AAPL",
+        "Name": "Apple Inc.",
+        "Price": "237.33"
+    },
+    {
+        "Acronym": "META",
+        "Name": "Meta Platforms, Inc.",
+        "Price": "574.32"
+    },
+    {
+        "Acronym": "TSLA",
+        "Name": "Tesla, Inc.",
+        "Price": "345.16"
+    },
+    {
+        "Acronym": "AVGO",
+        "Name": "Broadcom Inc.",
+        "Price": "162.08"
+    },
+    {
+        "Acronym": "BRK.A",
+        "Name": "Berkshire Hathaway Inc.",
+        "Price": "724,040.00"
+    },
+    {
+        "Acronym": "LLY",
+        "Name": "Eli Lilly and Company",
+        "Price": "795.35"
+    }
+]

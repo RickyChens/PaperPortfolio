@@ -1,0 +1,52 @@
+[
+    {
+        "Acronym": "IMV1!",
+        "Name": "S&P Merval Futures",
+        "Price": "2,302,744"
+    },
+    {
+        "Acronym": "RFX201!",
+        "Name": "ROFEX 20 INDEX FUTURES",
+        "Price": "328,800"
+    },
+    {
+        "Acronym": "MX1!",
+        "Name": "MICEX INDEX FUTURES",
+        "Price": "256,550"
+    },
+    {
+        "Acronym": "SN1!",
+        "Name": "Tin Futures",
+        "Price": "236,540"
+    },
+    {
+        "Acronym": "NI1!",
+        "Name": "Nickel Futures",
+        "Price": "126,920"
+    },
+    {
+        "Acronym": "IND1!",
+        "Name": "Bovespa Index Futures",
+        "Price": "126,235"
+    },
+    {
+        "Acronym": "WIN1!",
+        "Name": "Bovespa Index-Mini Futures",
+        "Price": "126,235"
+    },
+    {
+        "Acronym": "EU1!",
+        "Name": "Euro-Ruble Futures",
+        "Price": "112,020"
+    },
+    {
+        "Acronym": "SI1!",
+        "Name": "US Dollar-Ruble Futures",
+        "Price": "106,420"
+    },
+    {
+        "Acronym": "MBT1!",
+        "Name": "Micro Bitcoin Futures",
+        "Price": "98,365"
+    }
+]

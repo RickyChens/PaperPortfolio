@@ -1,0 +1,31 @@
+.Container-Profile {
+    background-color: black;
+    min-height: 100vh;
+    cursor: none;
+}
+
+.Container-Profile > * {
+    position: relative;
+    z-index: 2;
+}
+
+.Container-Profile .main {
+    z-index: 10;
+}
+
+.Container-Profile .graph {
+    padding-top: 30px;
+}
+
+.cursor {
+    pointer-events: none;
+    position: fixed;
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 20;
+    transform: translate(-50%, -50%);
+    left: var(--mouse-x);
+    top: var(--mouse-y);
+}

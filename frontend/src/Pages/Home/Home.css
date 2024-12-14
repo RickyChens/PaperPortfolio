@@ -1,0 +1,139 @@
+.Home-Container {
+  cursor: none;
+  position: relative;
+  background-size: cover;
+  background: linear-gradient(to bottom, black, black 5%, rgb(63, 63, 63) 33%, grey 67%, rgb(219, 197, 169) 85%, rgb(219, 197, 169));
+  width: 100%;
+  height: 310vh;
+  text-align: center;
+}
+
+.Home-Container > * {
+  position: relative;
+  z-index: 2;
+}
+
+.navbar {
+  background-color: rgb(0, 0, 0, 1);
+  z-index: 10;
+}
+
+/* INTRODUCTION STYLING*/
+.Home-Container .introduction {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Home-Container .introduction .text {
+  margin-top: -200px;
+  color:rgb(210, 210, 210);
+  width: 30vw;
+  height: 40vh;
+  font-size: 1.3vw;
+}
+
+.Home-Container .introduction .text h1 {
+  color:rgb(210, 210, 210);
+}
+
+.Home-Container .introduction .image img{
+  margin-top: -80px;
+  width: 40vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+/* INFORMATION STYLING*/
+.Home-Container .information {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Home-Container .information .text {
+  margin-top: -100px;
+  color:rgb(255, 255, 255);
+  width: 30vw;
+  height: 40vh;
+  font-size: 1.3vw;
+}
+
+.Home-Container .information .text h1 {
+  color:rgb(255, 255, 255);
+}
+
+.Home-Container .information .image img{
+  width: 35vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+
+
+/* CONTACT STYLING*/
+.Home-Container .contact {
+  background-color: transparent;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.Home-Container .contact .text {
+  margin-top: -100px;
+  color:rgb(255, 255, 255);  width: 30vw;
+  height: 40vh;
+  font-size: 1.3vw;
+}
+
+.Home-Container .contact .text h1 {
+  color:rgb(255, 255, 255);
+}
+
+.Home-Container .contact .image img{
+  width: 35vw;
+  height: auto;
+  border-radius: 20px;
+}
+
+.cursor {
+  pointer-events: none;
+  position: fixed;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  z-index: 20;
+  transform: translate(-50%, -50%);
+  left: var(--mouse-x);
+  top: var(--mouse-y);
+}
+
+.contact-box {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  color:rgb(255, 255, 255);
+}
+
+.contact-info {
+  margin-top: 20px;
+  color:rgb(255, 255, 255);
+}
+
+.contact-info a {
+  color: #0066cc; 
+  text-decoration: none;
+}
+

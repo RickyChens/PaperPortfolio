@@ -1,0 +1,77 @@
+[
+    {
+        "Acronym": "XRP",
+        "Name": "XRP",
+        "Price": "2.5918"
+    },
+    {
+        "Acronym": "SOL",
+        "Name": "Solana",
+        "Price": "236.16"
+    },
+    {
+        "Acronym": "USDT",
+        "Name": "Tether USDt",
+        "Price": "1.0006"
+    },
+    {
+        "Acronym": "BTC",
+        "Name": "Bitcoin",
+        "Price": "100,076.10"
+    },
+    {
+        "Acronym": "BNB",
+        "Name": "BNB",
+        "Price": "742.22"
+    },
+    {
+        "Acronym": "USDC",
+        "Name": "USDC",
+        "Price": "1.0001"
+    },
+    {
+        "Acronym": "ADA",
+        "Name": "Cardano",
+        "Price": "1.1882"
+    },
+    {
+        "Acronym": "DOGE",
+        "Name": "Dogecoin",
+        "Price": "0.46433"
+    },
+    {
+        "Acronym": "STETH",
+        "Name": "Lido Staked ETH",
+        "Price": "3,996.94"
+    },
+    {
+        "Acronym": "TRX",
+        "Name": "TRON",
+        "Price": "0.31795"
+    },
+    {
+        "Acronym": "SHIB",
+        "Name": "Shiba Inu",
+        "Price": "0.000032024"
+    },
+    {
+        "Acronym": "AVAX",
+        "Name": "Avalanche",
+        "Price": "54.248"
+    },
+    {
+        "Acronym": "TON",
+        "Name": "Toncoin",
+        "Price": "6.7667"
+    },
+    {
+        "Acronym": "LINK",
+        "Name": "Chainlink",
+        "Price": "26.271"
+    },
+    {
+        "Acronym": "ETH",
+        "Name": "Ethereum",
+        "Price": "4,000.22"
+    }
+]

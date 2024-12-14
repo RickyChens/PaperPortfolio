@@ -1,0 +1,77 @@
+[
+    {
+        "Acronym": "IMV1!",
+        "Name": "S&P Merval Futures",
+        "Price": "2,250,489"
+    },
+    {
+        "Acronym": "RFX201!",
+        "Name": "ROFEX 20 INDEX FUTURES",
+        "Price": "323,000"
+    },
+    {
+        "Acronym": "MX1!",
+        "Name": "MICEX INDEX FUTURES",
+        "Price": "252,050"
+    },
+    {
+        "Acronym": "SN1!",
+        "Name": "Tin Futures",
+        "Price": "243,720"
+    },
+    {
+        "Acronym": "IND1!",
+        "Name": "Bovespa Index Futures",
+        "Price": "126,060"
+    },
+    {
+        "Acronym": "WIN1!",
+        "Name": "Bovespa Index-Mini Futures",
+        "Price": "126,060"
+    },
+    {
+        "Acronym": "NI1!",
+        "Name": "Nickel Futures",
+        "Price": "125,280"
+    },
+    {
+        "Acronym": "EU1!",
+        "Name": "Euro-Ruble Futures",
+        "Price": "104,447"
+    },
+    {
+        "Acronym": "BTC1!",
+        "Name": "Bitcoin Futures",
+        "Price": "102,435"
+    },
+    {
+        "Acronym": "MBT1!",
+        "Name": "Micro Bitcoin Futures",
+        "Price": "102,435"
+    },
+    {
+        "Acronym": "SI1!",
+        "Name": "US Dollar-Ruble Futures",
+        "Price": "99,301"
+    },
+    {
+        "Acronym": "SILVER1!",
+        "Name": "Silver Futures",
+        "Price": "92,448"
+    },
+    {
+        "Acronym": "SILVERMIC1!",
+        "Name": "Silver Micro Futures",
+        "Price": "92,441"
+    },
+    {
+        "Acronym": "SILVERM1!",
+        "Name": "Silver Mini Futures",
+        "Price": "92,430"
+    },
+    {
+        "Acronym": "BSX1!",
+        "Name": "SENSEX INDEX FUTURES",
+        "Price": "82,023.60"
+    }
+]

@@ -1,0 +1,77 @@
+[
+    {
+        "Acronym": "MSFT",
+        "Name": "Microsoft Corporation",
+        "Price": "443.57"
+    },
+    {
+        "Acronym": "AMZN",
+        "Name": "Amazon.com, Inc.",
+        "Price": "227.03"
+    },
+    {
+        "Acronym": "GOOG",
+        "Name": "Alphabet Inc.",
+        "Price": "176.49"
+    },
+    {
+        "Acronym": "NVDA",
+        "Name": "NVIDIA Corporation",
+        "Price": "142.44"
+    },
+    {
+        "Acronym": "AAPL",
+        "Name": "Apple Inc.",
+        "Price": "242.84"
+    },
+    {
+        "Acronym": "TSLA",
+        "Name": "Tesla, Inc.",
+        "Price": "389.22"
+    },
+    {
+        "Acronym": "BRK.A",
+        "Name": "Berkshire Hathaway Inc.",
+        "Price": "705,236.50"
+    },
+    {
+        "Acronym": "AVGO",
+        "Name": "Broadcom Inc.",
+        "Price": "179.53"
+    },
+    {
+        "Acronym": "LLY",
+        "Name": "Eli Lilly and Company",
+        "Price": "826.71"
+    },
+    {
+        "Acronym": "WMT",
+        "Name": "Walmart Inc.",
+        "Price": "95.70"
+    },
+    {
+        "Acronym": "ORCL",
+        "Name": "Oracle Corporation",
+        "Price": "191.69"
+    },
+    {
+        "Acronym": "JPM",
+        "Name": "JP Morgan Chase & Co.",
+        "Price": "247.36"
+    },
+    {
+        "Acronym": "V",
+        "Name": "Visa Inc.",
+        "Price": "311.01"
+    },
+    {
+        "Acronym": "UNH",
+        "Name": "UnitedHealth Group Incorporated",
+        "Price": "549.62"
+    },
+    {
+        "Acronym": "META",
+        "Name": "Meta Platforms, Inc.",
+        "Price": "623.77"
+    }
+]

@@ -1,0 +1,24 @@
+.Graph-Container {
+    background-color: rgb(10, 10, 10);
+    min-height: 100vh;
+}
+
+.Graph-Container .main {
+    background-color: transparent;
+}
+
+.Graph-Container .graph {
+    background-color: transparent;
+}
+
+/* Middle Container */
+.Graph-Container .graph-middle-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.Graph-Container .graph-middle-container .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

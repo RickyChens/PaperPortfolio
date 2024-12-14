@@ -1,0 +1,118 @@
+.Top-Container {
+    color: white;
+}
+
+.Top-Container h1 {
+    margin-bottom: 3em;
+}
+
+.Top-Container .boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.Top-Container p {
+    font-size: 1.8em;
+    align-self: center;
+}
+
+.Top-Container .Info-Box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    margin: 0px 10px 10px 10px;
+    width: 20%;
+    min-width: 130px;
+    height: 100px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+.Top-Container .Container-Set-Balance {
+    display: flex;
+    position: relative;
+    width: 20%;
+    min-width: 130px;
+    margin: 0px 10px 10px 10px;
+}
+
+.Top-Container .Container-Set-Balance button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    outline: none;
+    padding: 16px 24px;
+    width: 25%;
+    transition: transform 0.1s ease, background-color 0.1s ease;
+}
+
+.Top-Container .Container-Set-Balance button:hover {
+    cursor: none;
+}
+
+.Top-Container .Container-Set-Balance button:active {
+    transform: translateY(-50%) scale(0.90);
+}
+
+.Top-Container .Set-Balance {
+    position: relative;
+    cursor: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1A1A1A;
+    width: 100%;
+    height: 100px;
+    border: none;
+    outline: none;
+    padding: 10px 50px 10px 15px;
+    color: white;
+    border-radius: 15px;
+    font-size: 1.8em;
+}
+
+
+.Stocks-Container {
+    width: 100%;
+    max-width: 800px;
+    margin: 4em auto;
+    padding: 20px;
+    border: 1px solid #333;
+    border-radius: 15px;
+    background-color: #1A1A1A;
+    color: white;
+    overflow-y: auto; 
+    max-height: 400px;
+}
+
+.Stocks-Container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px; 
+    overflow-y: auto; 
+
+}
+
+.Stocks-Container li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+

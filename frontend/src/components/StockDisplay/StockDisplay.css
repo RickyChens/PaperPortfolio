@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.underline-bold {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.container {
+    color: white;
+    border-radius: 20px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 10px 25px 20px 25px;
+    box-shadow: 0px 1px 100px rgba(111, 111, 111, 0.3);
+    backdrop-filter: blur(2px)
+}
+
+.container:hover {
+    box-shadow: 0px 1px 50px 0px rgba(255, 255, 255, 0.35);
+    background-color: rgba(30, 34, 38, 0.75);
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
+
+.container > * {
+    position: relative;
+    z-index: 2;
+}
+
+.container h2 {
+    user-select: none;
+    align-self: center;
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 2.5em;
+    padding: 10px;
+}
+
+.List {
+    user-select: none;
+    font-family: 'Roboto';
+    align-self: center;
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+
+.container li {
+    font-family: 'Roboto';
+    width: 100%;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.4em;
+}
+
+.container span {
+    font-family: 'Roboto';
+    margin-left: 1em;
+}

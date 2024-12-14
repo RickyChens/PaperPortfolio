@@ -1,0 +1,177 @@
+.wrapper {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.login {
+    color: white;
+    display: inline-block;
+    position: relative;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 360px;
+    height: 440px;
+    margin: 0 auto;
+    backdrop-filter: blur(20px)
+}
+
+h1 {
+    color: white;
+    padding-top: 1em;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    cursor: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: white;
+}
+
+i {
+    position: absolute;
+    right: 15px;
+    top: 22px;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0px 15px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.remember-forgot label{
+    cursor: none;
+}
+
+.remember-forgot label input {
+    cursor: none;
+    vertical-align: middle;
+    width: 1em;
+    height: 1em;
+    background-color: white;
+    border-radius: 30%;
+    border: 1px solid #ddd;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+.login .remember-forgot label input:checked {
+    background-color: rgb(129, 0, 0);
+}
+
+.remember-forgot label span {
+    user-select: none;
+    cursor: none;
+    vertical-align: middle;
+}
+
+.remember-forgot a {
+    cursor: none;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.remember-forgot a:visited {
+    color: white;
+}
+
+.login .login-btn {
+    cursor: none;
+    width: 100%;
+    height: 45px;
+    background: rgb(129, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    transform: 0.5s;
+}
+
+.login .login-btn:hover {
+    background-color: rgb(119, 0, 0);
+}
+
+.login-btn:active {
+    transform: scale(0.99);
+}
+
+
+.register {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register a {
+    cursor: none;
+    text-decoration: none;
+}
+
+.register a:hover {
+    text-decoration: underline;
+}
+
+.register a:visited { 
+    color: white;
+}
+
+
+/** Make text white because it's being overriden somewhere **/
+
+.login a, 
+.login i {
+    color: white !important;
+}
+
+.login a:hover, 
+.login a:visited {
+    color: white !important;
+}
+
+.login input::placeholder {
+    color: white !important;
+}
+
+.login input::-webkit-input-placeholder {
+    color: white !important;
+}
+
+.login input:-ms-input-placeholder {
+    color: white !important;
+}
+
+.login input::-ms-input-placeholder {
+    color: white !important;
+}
