@@ -3,7 +3,7 @@ import Login from '../../components/Login/Login'
 import Register from '../../components/Register/Register'
 import './LoginPage.css'
 import ContextProvider, { Context } from '../../context/context'
-import Particle from '../../components/Particles/particles'
+import Particle from '../../components/Particles/Particles'
 
 const LoginPage = () => {
   const {isLogin} = useContext(Context)

@@ -3,7 +3,7 @@ import Main from '../../components/Navbar/Navbar'
 import StockDisplay from '../../components/StockDisplay/StockDisplay'
 import CryptoDisplay from '../../components/StockDisplay/CryptoDisplay'
 import FuturesDisplay from '../../components/StockDisplay/FuturesDisplay'
-import Particle from '../../components/Particles/particles'
+import Particle from '../../components/Particles/Particles'
 import "./StockPage.css"
 
 const StockPage = () => {
